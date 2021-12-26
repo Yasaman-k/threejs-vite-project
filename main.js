@@ -35,20 +35,21 @@ function addStar() {
     const material = new THREE.MeshStandardMaterial({ color: 0xffffff })
     const star = new THREE.Mesh(geometry, material)
     const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread(100))
-    star.position.set(x,y,z)
+    star.position.set(x, y, z)
     scene.add(star)
 }
 
 Array(200).fill().forEach(addStar)
+
+const spaceTexture = new THREE.TextureLoader().load('space.jpg')
+scene.background = spaceTexture
 
 function animate() {
     requestAnimationFrame(animate)
     torus.rotation.x += 0.01;
     torus.rotation.y += 0.005;
     torus.rotation.z += 0.01;
-
     controls.update()
-
     renderer.render(scene, camera)
 }
 animate()
