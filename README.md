@@ -1,5 +1,5 @@
 # threejs-project
-## This project use threejs library which install in vital framework.
+## This project use three.js library which install in vite.js framework.
 
 npm install 
 npm run dev
