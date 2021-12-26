@@ -19,7 +19,7 @@ const torus = new THREE.Mesh(geometry, material)
 scene.add(torus)
 
 const pointLight =new THREE.PointLight(0xffffff)
-pointLight.position.set(5,5,5)
+pointLight.position.set(20,20,20)
 
 scene.add(pointLight)
 
