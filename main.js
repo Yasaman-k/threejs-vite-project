@@ -44,6 +44,14 @@ Array(200).fill().forEach(addStar)
 const spaceTexture = new THREE.TextureLoader().load('space.jpg')
 scene.background = spaceTexture
 
+const jeffTexture = new THREE.TextureLoader().load('jeff.png')
+const jeff = new THREE.Mesh(
+    new THREE.BoxGeometry(3,3,3),
+    new THREE.MeshBasicMaterial({map:jeffTexture})
+)
+
+scene.add(jeff);
+
 function animate() {
     requestAnimationFrame(animate)
     torus.rotation.x += 0.01;
