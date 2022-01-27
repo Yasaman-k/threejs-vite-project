@@ -7,4 +7,5 @@
 source : https://www.youtube.com/watch?v=Q7AOvWpIVHU
 
 
-npm init @vitejs/app  --> to install it
+npm init @vitejs/app  --> to install vite.js
+npm install --save three --> to install tree.js
