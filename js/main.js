@@ -1,4 +1,4 @@
-import './style.css'
+import '../css/style.css'
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js';
@@ -42,11 +42,11 @@ function addStar() {
 
 Array(200).fill().forEach(addStar)
 
-const spaceTexture = new THREE.TextureLoader().load('space.jpg')
+const spaceTexture = new THREE.TextureLoader().load('images/nature.jpg')
 scene.background = spaceTexture
 
 // Avatar
-const jeffTexture = new THREE.TextureLoader().load('jeff.png');
+const jeffTexture = new THREE.TextureLoader().load('images/jeff.png');
 const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: jeffTexture }));
 scene.add(jeff);
 
@@ -79,8 +79,8 @@ loader.load('fonts/helvetiker_regular.typeface.json', function (font) {
 
 
 //moon
-const moonTexture = new THREE.TextureLoader().load('moon.jpg')
-const normalTexture = new THREE.TextureLoader().load('normal.jpg')
+const moonTexture = new THREE.TextureLoader().load('images/moon.jpg')
+const normalTexture = new THREE.TextureLoader().load('images/normal.jpg')
 
 const moon = new THREE.Mesh(
     new THREE.SphereGeometry(3, 32, 32),

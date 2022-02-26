@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import './style.css'
+import '../css/style.css'
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js';
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js'
 
