@@ -5,6 +5,7 @@
 # npm run dev
 
 source : https://www.youtube.com/watch?v=Q7AOvWpIVHU
+source : https://codinhood.com/post/create-skybox-with-threejs
 
 
 npm init @vitejs/app  --> to install vite.js
