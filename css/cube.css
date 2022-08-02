@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #bdc3c7;
+  }
+  #loading {
+    position: fixed;
+    font-size: 40px;
+    z-index: -1;
+    left: 28%;
+    top: 15%;
+    color: #444;
+    text-align: center;
+  }
+  
+  .buttons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  button {
+    margin-bottom: 6px;
+    width: 120px;
+    font-size: 14px;
+    outline: none;
+    background: #333;
+    color: #ddd;
+    border: none;
+    text-transform: uppercase;
+    opacity: .5;
+  }
+  button:hover {
+    background: #222;
+    color: #eee;
+  }
+  button:active {
+    background: #111;
+    color: #fff;
+  }
+  
+  #autoRotate {
+    margin-top: 20px;
+  }
+  
+  .drag {
+    color: #ccc;
+    font-size: 11px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    opacity: .5;
+  }
+  
+  

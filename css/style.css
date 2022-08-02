@@ -7,14 +7,12 @@
 }
 
 
-
 .bg-canvas {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
 }
-
 
 :root {
   /* --dark-bg: rgba(15, 15, 15, 0.95); */
