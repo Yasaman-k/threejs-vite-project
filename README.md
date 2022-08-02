@@ -1,4 +1,4 @@
-# threejs-vue-project
+# threejs-vite-project
 #### This project use three.js library which install in vite.js framework.
 
 ```shell
@@ -22,3 +22,5 @@ install tree.js
  ```shell
   $ npm install --save three
   ```
+  
+  project run index.html , but we also have another html(skybox) to watch it you can get another route.
